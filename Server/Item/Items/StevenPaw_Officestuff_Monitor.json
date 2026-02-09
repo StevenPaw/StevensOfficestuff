@@ -1,0 +1,213 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_Monitor.name",
+    "Description": ""
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Basics"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Monitor.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_White.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "StevenPaw_Officestuff_Monitor",
+    "VariantRotation": "NESW",
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#876f5c",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "OFF",
+              "OFF": "APPLE",
+              "APPLE": "BLUE",
+              "BLUE": "CALENDAR",
+              "CALENDAR": "CAM",
+              "CAM": "CHARTS",
+              "CHARTS": "HYTALE",
+              "HYTALE": "MAPS",
+              "MAPS": "MINECRAFT",
+              "MINECRAFT": "MINESWEEPER",
+              "MINESWEEPER": "PINK",
+              "PINK": "PONG",
+              "PONG": "SECURITY",
+              "SECURITY": "SOLITHAIRE",
+              "SOLITHAIRE": "WHITE",
+              "WHITE": "OFF"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "OFF": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Off.png"
+            }
+          ]
+        },
+        "APPLE": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Apple.png"
+            }
+          ]
+        },
+        "BLUE": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Blue.png"
+            }
+          ]
+        },
+        "CALENDAR": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Calendar.png"
+            }
+          ]
+        },
+        "CAM": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Cam.png"
+            }
+          ]
+        },
+        "CHARTS": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Charts.png"
+            }
+          ]
+        },
+        "HYTALE": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Hytale.png"
+            }
+          ]
+        },
+        "MAPS": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Maps.png"
+            }
+          ]
+        },
+        "MINECRAFT": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Minecraft.png"
+            }
+          ]
+        },
+        "MINESWEEPER": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Minesweeper.png"
+            }
+          ]
+        },
+        "PINK": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Pink.png"
+            }
+          ]
+        },
+        "PONG": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Pong.png"
+            }
+          ]
+        },
+        "SECURITY": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Security.png"
+            }
+          ]
+        },
+        "SOLITHAIRE": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Solithaire.png"
+            }
+          ]
+        },
+        "WHITE": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_White.png"
+            }
+          ]
+        }
+      }
+    },
+    "InteractionHint": "server.StevenPaw_Officestuff_ChangeColor.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      4,
+      -16
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 16
+}

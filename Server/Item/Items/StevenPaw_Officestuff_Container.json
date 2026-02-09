@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_Container.name",
+    "Description": ""
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Basics"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Container.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Container.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Officestuff_Container.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "StevenPaw_Officestuff_Container",
+    "VariantRotation": "NESW",
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {}
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#876f5c",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.65,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -14
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 16
+}

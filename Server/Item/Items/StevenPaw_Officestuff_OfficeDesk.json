@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_OfficeDesk.name",
+    "Description": ""
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Bar_Iron"
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Basics"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_OfficeDesk.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_OfficeDesk.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Officestuff_OfficeDesk.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "StevenPaw_Officestuff_OfficeDesk",
+    "VariantRotation": "NESW",
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {}
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#876f5c",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.43,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      13,
+      -11
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 16
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "StevenPaw",
+  "Name": "Stevens Office and Computerstuff",
+  "Version": "1.0.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "Steven Paw",
+      "Email": "kontakt@stevenpaw.de",
+      "Url": "stevenpaw.de"
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

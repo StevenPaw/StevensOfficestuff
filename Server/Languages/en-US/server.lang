@@ -1,0 +1,14 @@
+items.StevenPaw_Officestuff_Bench.name=Office Workbench
+items.StevenPaw_Officestuff_Bench.description=A workbench for crafting officestuff
+BenchCategories.StevenPaw_Officestuff.Basics=Basics
+
+items.StevenPaw_Officestuff_OfficeDesk.name=Office Desk
+items.StevenPaw_Officestuff_Container.name=Container
+items.StevenPaw_Officestuff_Desktop.name=Desktop
+items.StevenPaw_Officestuff_Monitor.name=Monitor
+items.StevenPaw_Officestuff_MonitorDiagonal.name=Monitor (Diagonal)
+
+StevenPaw_Officestuff_ChangeDesign.description=Press [{key}] to change Design
+StevenPaw_Officestuff_ChangeColor.description=Press [{key}] to change Color
+StevenPaw_Officestuff_ToggleOn.description=Press [{key}] to toggle on
+StevenPaw_Officestuffs_ToggleOff.description=Press [{key}] to toggle off
