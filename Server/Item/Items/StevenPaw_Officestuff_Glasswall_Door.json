@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_Glasswall_Door.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Doors"
+  ],
+  "Set": "Furniture_Ancient",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Glasswall_Door.png",
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -27
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Soil_Gravel_Sand"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Basics"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_Door.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "StevenPaw_Officestuff_Glasswall_Straight",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#4e462c",
+    "State": {
+      "Definitions": {
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Ancient_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim"
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Ancient_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim"
+        },
+        "DoorBlocked": {},
+        "OpenDoorIn": {
+          "HitboxType": "StevenPaw_Officestuff_Glasswall_DoorOpenIn",
+          "InteractionHitboxType": "StevenPaw_Officestuff_Glasswall_Straight",
+          "InteractionSoundEventId": "SFX_Door_Ancient_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim"
+        },
+        "OpenDoorOut": {
+          "HitboxType": "StevenPaw_Officestuff_Glasswall_DoorOpenOut",
+          "InteractionHitboxType": "StevenPaw_Officestuff_Glasswall_Straight",
+          "InteractionSoundEventId": "SFX_Door_Ancient_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim"
+        }
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Glass",
+    "IsDoor": true,
+    "Interactions": {
+      "Use": "Door"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "Scale": 0.8,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

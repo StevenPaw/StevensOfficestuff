@@ -1,16 +1,17 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Officestuff_Glasswall.name",
+    "Name": "server.items.StevenPaw_Officestuff_GlasswallTall.name",
     "Description": ""
   },
   "Recipe": {
     "Input": [
       {
         "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
+        "Quantity": 3
       },
       {
-        "ItemId": "Soil_Gravel_Sand"
+        "ItemId": "Soil_Gravel_Sand",
+        "Quantity": 2
       }
     ],
     "BenchRequirement": [
@@ -23,7 +24,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Glasswall.png",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_GlasswallTall.png",
   "Categories": [
     "Furniture.Benches"
   ],
@@ -31,23 +32,23 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Semitransparent",
-    "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_Straight.blockymodel",
+    "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_GlasswallTall_Straight.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall.png",
         "Weight": 1
       }
     ],
-    "HitboxType": "StevenPaw_Officestuff_Glasswall_Straight",
+    "HitboxType": "StevenPaw_Officestuff_GlasswallTall_Straight",
     "VariantRotation": "NESW",
     "ConnectedBlockRuleSet": {
       "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "ConnectedBlockTemplate_Glasswall",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_GlasswallTall",
       "TemplateShapeBlockPatterns": {
-        "Straight": "*StevenPaw_Officestuff_Glasswall_State_Definitions_Straight",
-        "Corner": "*StevenPaw_Officestuff_Glasswall_State_Definitions_Corner",
-        "T_Junction": "*StevenPaw_Officestuff_Glasswall_State_Definitions_T_Junction",
-        "Cross_Junction": "*StevenPaw_Officestuff_Glasswall_State_Definitions_Cross_Junction"
+        "Straight": "*StevenPaw_Officestuff_GlasswallTall_State_Definitions_Straight",
+        "Corner": "*StevenPaw_Officestuff_GlasswallTall_State_Definitions_Corner",
+        "T_Junction": "*StevenPaw_Officestuff_GlasswallTall_State_Definitions_T_Junction",
+        "Cross_Junction": "*StevenPaw_Officestuff_GlasswallTall_State_Definitions_Cross_Junction"
       }
     },
     "FaceTags": {
@@ -77,20 +78,20 @@
     "State": {
       "Definitions": {
         "Straight": {
-          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_Straight.blockymodel",
-          "HitboxType": "StevenPaw_Officestuff_Glasswall_Straight"
+          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_GlasswallTall_Straight.blockymodel",
+          "HitboxType": "StevenPaw_Officestuff_GlasswallTall_Straight"
         },
         "Corner": {
-          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_Corner.blockymodel",
-          "HitboxType": "StevenPaw_Officestuff_Glasswall_Corner"
+          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_GlasswallTall_Corner.blockymodel",
+          "HitboxType": "StevenPaw_Officestuff_GlasswallTall_Corner"
         },
         "T_Junction": {
-          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_T_Junction.blockymodel",
-          "HitboxType": "StevenPaw_Officestuff_Glasswall_T_Junction"
+          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_GlasswallTall_T_Junction.blockymodel",
+          "HitboxType": "StevenPaw_Officestuff_GlasswallTall_T_Junction"
         },
         "Cross_Junction": {
-          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_Cross_Junction.blockymodel",
-          "HitboxType": "StevenPaw_Officestuff_Glasswall_Junction"
+          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_GlasswallTall_Junction.blockymodel",
+          "HitboxType": "StevenPaw_Officestuff_GlasswallTall_Junction"
         }
       }
     },
@@ -98,7 +99,7 @@
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.45,
+    "Scale": 0.32,
     "Rotation": [
       22.5,
       45,
@@ -106,7 +107,7 @@
     ],
     "Translation": [
       0,
-      -27
+      -41
     ]
   },
   "Tags": {

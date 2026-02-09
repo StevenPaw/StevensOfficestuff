@@ -7,6 +7,12 @@ items.StevenPaw_Officestuff_Container.name=Container
 items.StevenPaw_Officestuff_Desktop.name=Desktop
 items.StevenPaw_Officestuff_Monitor.name=Monitor
 items.StevenPaw_Officestuff_MonitorDiagonal.name=Monitor (Diagonal)
+items.StevenPaw_Officestuff_Glasswall.name=Glass Wall
+items.StevenPaw_Officestuff_Glasswall_Door.name=Glass Wall Door
+items.StevenPaw_Officestuff_GlasswallTall.name=Tall Glass Wall
+items.StevenPaw_Officestuff_GlasswallTall_Door.name=Tall Glass Wall Door
+
+items.StevenPaw_Officestuff_OfficeCeiling.name=Office Ceiling
 
 StevenPaw_Officestuff_ChangeDesign.description=Press [{key}] to change Design
 StevenPaw_Officestuff_ChangeColor.description=Press [{key}] to change Color
