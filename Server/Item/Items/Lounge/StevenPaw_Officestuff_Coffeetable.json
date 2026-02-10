@@ -14,12 +14,7 @@
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
-      },
-      {
-        "ItemId": "Cloth_Block_Wool_White",
-        "Quantity": 3
+        "ResourceTypeId": "Wood_Trunk"
       }
     ],
     "BenchRequirement": [
@@ -106,7 +101,7 @@
   ],
   "ItemSoundSetId": "ISS_Blocks_Wood",
   "IconProperties": {
-    "Scale": 0.7,
+    "Scale": 0.68,
     "Rotation": [
       22.5,
       45,

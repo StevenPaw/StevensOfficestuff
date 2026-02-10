@@ -1,97 +1,41 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Officestuff_Monitor.name",
-    "Description": ""
-  },
-  "Recipe": {
-    "Input": [
-      {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Categories": [
-          "Office_Basics"
-        ],
-        "Id": "StevenPaw_Officestuff_Bench"
-      }
-    ]
-  },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Monitor.png",
-  "Categories": [
-    "Furniture.Benches"
-  ],
+  "Variant": true,
+  "Parent": "StevenPaw_Officestuff_Monitor",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Monitor_Wall.png",
   "BlockType": {
-    "Material": "Solid",
-    "DrawType": "Model",
-    "Opacity": "Semitransparent",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor.blockymodel",
+    "PlacementSettings": {
+      "WallPlacementOverrideBlockId": "StevenPaw_Officestuff_Monitor_Wall",
+      "CeilingPlacementOverrideBlockId": "StevenPaw_Officestuff_Monitor_Ceiling",
+      "FloorPlacementOverrideBlockId": "StevenPaw_Officestuff_Monitor"
+    },
+    "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_White.png",
         "Weight": 1
       }
     ],
-    "HitboxType": "StevenPaw_Officestuff_Monitor",
-    "VariantRotation": "NESW",
-    "BlockParticleSetId": "Wood",
-    "ParticleColor": "#876f5c",
+    "HitboxType": "StevenPaw_Officestuff_Monitor_Wall",
     "Support": {
-      "Down": [
+      "North": [
         {
           "FaceType": "Full"
-        }
-      ],
-      "Up": [
+        },
         {
-          "FaceType": "Full"
+          "FaceType": "Wall"
         }
       ]
     },
-    "PlacementSettings": {
-      "WallPlacementOverrideBlockId": "StevenPaw_Officestuff_Monitor_Wall",
-      "CeilingPlacementOverrideBlockId": "StevenPaw_Officestuff_Monitor_Ceiling",
-      "FloorPlacementOverrideBlockId": "StevenPaw_Officestuff_Monitor"
-    },
-    "BlockSoundSetId": "Wood",
-    "Supporting": {
-      "Up": [
-        {}
-      ]
-    },
-    "Interactions": {
-      "Use": {
-        "Interactions": [
-          {
-            "Type": "ChangeState",
-            "Changes": {
-              "default": "OFF",
-              "OFF": "APPLE",
-              "APPLE": "BLUE",
-              "BLUE": "CALENDAR",
-              "CALENDAR": "CAM",
-              "CAM": "CHARTS",
-              "CHARTS": "HYTALE",
-              "HYTALE": "MAPS",
-              "MAPS": "MINECRAFT",
-              "MINECRAFT": "MINESWEEPER",
-              "MINESWEEPER": "PINK",
-              "PINK": "PONG",
-              "PONG": "SECURITY",
-              "SECURITY": "SOLITHAIRE",
-              "SOLITHAIRE": "WHITE",
-              "WHITE": "OFF"
-            }
-          }
-        ]
+    "Gathering": {
+      "Soft": {
+        "ItemId": "StevenPaw_Officestuff_Monitor"
       }
     },
+    "InteractionHint": "server.StevenPaw_Officestuff_ChangeColor.description",
     "State": {
       "Definitions": {
         "OFF": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Off.png"
@@ -99,6 +43,7 @@
           ]
         },
         "APPLE": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Apple.png"
@@ -106,6 +51,7 @@
           ]
         },
         "BLUE": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Blue.png"
@@ -117,90 +63,106 @@
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Calendar.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "CAM": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Cam.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "CHARTS": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Charts.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "HYTALE": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Hytale.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "MAPS": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Maps.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "MINECRAFT": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Minecraft.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "MINESWEEPER": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Minesweeper.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "PINK": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Pink.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "PONG": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Pong.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "SECURITY": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Security.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "SOLITHAIRE": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_Solithaire.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         },
         "WHITE": {
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/Desktop/StevenPaw_Officestuff_Desktop_White.png"
             }
-          ]
+          ],
+          "CustomModel": "Blocks/Furniture/StevenPaw_Officestuff_Monitor_Wall.blockymodel"
         }
       }
-    },
-    "InteractionHint": "server.StevenPaw_Officestuff_ChangeColor.description"
+    }
   },
   "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
   "IconProperties": {
     "Scale": 1,
     "Rotation": [
@@ -209,15 +171,8 @@
       22.5
     ],
     "Translation": [
-      5,
-      -16
+      9,
+      -18
     ]
-  },
-  "Tags": {
-    "Type": [
-      "Furniture"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Blocks_Wood",
-  "MaxStack": 17
+  }
 }
