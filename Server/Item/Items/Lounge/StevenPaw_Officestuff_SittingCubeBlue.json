@@ -1,0 +1,26 @@
+{
+  "Parent": "StevenPaw_Officestuff_SittingCubeWhite",
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_SittingCubeBlue.name"
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Lounge/StevenPaw_Officestuff_SittingCubeBlue.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_SittingBlockBlue.png",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  }
+}

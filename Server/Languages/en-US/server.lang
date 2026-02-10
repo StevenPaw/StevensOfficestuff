@@ -1,6 +1,8 @@
 items.StevenPaw_Officestuff_Bench.name=Office Workbench
 items.StevenPaw_Officestuff_Bench.description=A workbench for crafting officestuff
 BenchCategories.StevenPaw_Officestuff.Basics=Basics
+BenchCategories.StevenPaw_Officestuff.Chairs=Chairs
+BenchCategories.StevenPaw_Officestuff.Glass=Windows & Glasswalls
 
 items.StevenPaw_Officestuff_OfficeDesk.name=Office Desk
 items.StevenPaw_Officestuff_Container.name=Container
@@ -11,10 +13,46 @@ items.StevenPaw_Officestuff_Glasswall.name=Glass Wall
 items.StevenPaw_Officestuff_Glasswall_Door.name=Glass Wall Door
 items.StevenPaw_Officestuff_GlasswallTall.name=Tall Glass Wall
 items.StevenPaw_Officestuff_GlasswallTall_Door.name=Tall Glass Wall Door
+items.StevenPaw_Officestuff_GlasswallShort.name=Window Glass Wall
+
+items.StevenPaw_Officestuff_OfficeChairClimbala.name=Office Chair (Climbala)
+items.StevenPaw_Officestuff_OfficeChairVimba.name=Office Chair (Vimba)
+items.StevenPaw_Officestuff_OfficeChairSanta.name=Office Chair (Santa)
+items.StevenPaw_Officestuff_OfficeChairAquam.name=Office Chair (Aquam)
+items.StevenPaw_Officestuff_OfficeChairKarma.name=Office Chair (Karma)
+items.StevenPaw_Officestuff_OfficeChairGralam.name=Office Chair (Gralam)
+items.StevenPaw_Officestuff_OfficeChairWanda.name=Office Chair (Wanda)
+items.StevenPaw_Officestuff_OfficeChairHamba.name=Office Chair (Hamba)
+items.StevenPaw_Officestuff_OfficeChairRoto.name=Office Chair (Roto)
+items.StevenPaw_Officestuff_GamingChairOstara.name=Gaming Chair (Ostara)
+items.StevenPaw_Officestuff_GamingChairVioceum.name=Gaming Chair (Vioceum)
+items.StevenPaw_Officestuff_GamingChairTenebrae.name=Gaming Chair (Tenebrae)
+items.StevenPaw_Officestuff_GamingChairSunny.name=Gaming Chair (Sunny)
+items.StevenPaw_Officestuff_GamingChairDrema.name=Gaming Chair (Drema)
+items.StevenPaw_Officestuff_GamingChairLava.name=Gaming Chair (Lava)
+items.StevenPaw_Officestuff_GamingChairFlora.name=Gaming Chair (Flora)
 
 items.StevenPaw_Officestuff_OfficeCeiling.name=Office Ceiling
+items.StevenPaw_Officestuff_CeilingLight.name=Ceiling Light
+items.StevenPaw_Officestuff_CarpetFloor.name=Carpet Floor (Default)
+items.StevenPaw_Officestuff_CarpetFloorCubes.name=Carpet Floor (Cubes)
+items.StevenPaw_Officestuff_KitchenTilesWide.name=Kitchen Tiles (Wide)
+items.StevenPaw_Officestuff_KitchenTilesQuadratic.name=Kitchen Tiles (Quadratic)
 
+items.StevenPaw_Officestuff_SittingCubeBlue.name=Sitting Cube (Blue)
+items.StevenPaw_Officestuff_SittingCubeCyan.name=Sitting Cube (Cyan)
+items.StevenPaw_Officestuff_SittingCubeGreen.name=Sitting Cube (Green)
+items.StevenPaw_Officestuff_SittingCubeOrange.name=Sitting Cube (Orange)
+items.StevenPaw_Officestuff_SittingCubeRed.name=Sitting Cube (Red)
+items.StevenPaw_Officestuff_SittingCubeWhite.name=Sitting Cube (White)
+items.StevenPaw_Officestuff_SittingCubeYellow.name=Sitting Cube (Yellow)
+items.StevenPaw_Officestuff_SittingCubeBlack.name=Sitting Cube (Black)
+items.StevenPaw_Officestuff_Coffeetable.name=Coffeetable
+
+StevenPaw_Officestuff_Sit.description=Press [{key}] to sit
 StevenPaw_Officestuff_ChangeDesign.description=Press [{key}] to change Design
 StevenPaw_Officestuff_ChangeColor.description=Press [{key}] to change Color
 StevenPaw_Officestuff_ToggleOn.description=Press [{key}] to toggle on
-StevenPaw_Officestuffs_ToggleOff.description=Press [{key}] to toggle off
+StevenPaw_Officestuff_ToggleOff.description=Press [{key}] to toggle off
+StevenPaw_Officestuff_Open.description=Press [{key}] to open
+StevenPaw_Officestuff_Close.description=Press [{key}] to close

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Roadstuff_Asphalt_Block.name"
+    "Name": "server.items.StevenPaw_Officestuff_OfficeCeiling.name"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
@@ -14,20 +14,19 @@
   "Recipe": {
     "Input": [
       {
+        "Quantity": 2,
         "ItemId": "Cloth_Block_Wool_White"
       }
     ],
     "BenchRequirement": [
       {
-        "Id": "StevenPaw_Roadstuff_Bench_Roadsigns",
         "Type": "Crafting",
         "Categories": [
-          "StevenPaw_Roadstuff_Roadsigns_Basics"
+          "Office_Basics"
         ],
-        "RequiredTierLevel": 1
+        "Id": "StevenPaw_Officestuff_Bench"
       }
-    ],
-    "OutputQuantity": 4
+    ]
   },
   "BlockType": {
     "Material": "Solid",

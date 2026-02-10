@@ -48,6 +48,16 @@
           "Id": "Office_Basics",
           "Icon": "Icons/CraftingCategories/Office_Basics.png",
           "Name": "server.BenchCategories.StevenPaw_Officestuff.Basics"
+        },
+        {
+          "Id": "Office_Chairs",
+          "Icon": "Icons/CraftingCategories/Office_Chairs.png",
+          "Name": "server.BenchCategories.StevenPaw_Officestuff.Chairs"
+        },
+        {
+          "Id": "Office_Glass",
+          "Icon": "Icons/CraftingCategories/Office_Glass.png",
+          "Name": "server.BenchCategories.StevenPaw_Officestuff.Glass"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",

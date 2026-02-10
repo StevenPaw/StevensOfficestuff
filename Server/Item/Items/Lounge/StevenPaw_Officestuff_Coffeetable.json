@@ -1,0 +1,120 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_Coffeetable.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Coffeetable.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Chairs"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffeetable_Beam.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffetable.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "StevenPaw_Officestuff_Coffeetable",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "ParticleColor": "#63412c",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "VariantRotation": "NESW",
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_Coffeetable",
+      "TemplateShapeBlockPatterns": {
+        "Beam": "*StevenPaw_Officestuff_Coffeetable_State_Definitions_Beam",
+        "Start": "*StevenPaw_Officestuff_Coffeetable_State_Definitions_Start",
+        "Straight": "*StevenPaw_Officestuff_Coffeetable_State_Definitions_Straight",
+        "Corner": "*StevenPaw_Officestuff_Coffeetable_State_Definitions_Corner",
+        "T_Junction": "*StevenPaw_Officestuff_Coffeetable_State_Definitions_T_Junction",
+        "Cross_Junction": "*StevenPaw_Officestuff_Coffeetable_State_Definitions_Cross_Junction"
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Beam": {
+          "CustomModel": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffeetable_Beam.blockymodel"
+        },
+        "Start": {
+          "CustomModel": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffeetable_Start.blockymodel"
+        },
+        "Straight": {
+          "CustomModel": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffeetable_Straight.blockymodel"
+        },
+        "Corner": {
+          "CustomModel": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffeetable_Corner.blockymodel"
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffeetable_T_Junction.blockymodel"
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Furniture/Lounge/Coffeetable/StevenPaw_Officestuff_Coffeetable_Junction.blockymodel"
+        }
+      }
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -11
+    ]
+  }
+}

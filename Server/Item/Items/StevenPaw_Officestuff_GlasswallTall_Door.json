@@ -6,7 +6,6 @@
   "Categories": [
     "Furniture.Doors"
   ],
-  "Set": "Furniture_Ancient",
   "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_GlasswallTall_Door.png",
   "IconProperties": {
     "Scale": 0.32,
@@ -39,7 +38,7 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Office_Basics"
+          "Office_Glass"
         ],
         "Id": "StevenPaw_Officestuff_Bench"
       }
@@ -69,24 +68,28 @@
       "Definitions": {
         "CloseDoorIn": {
           "InteractionSoundEventId": "SFX_Door_Ancient_Close",
-          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim",
+          "InteractionHint": "server.StevenPaw_Officestuff_Open.description"
         },
         "CloseDoorOut": {
           "InteractionSoundEventId": "SFX_Door_Ancient_Close",
-          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim",
+          "InteractionHint": "server.StevenPaw_Officestuff_Open.description"
         },
         "DoorBlocked": {},
         "OpenDoorIn": {
           "HitboxType": "StevenPaw_Officestuff_GlasswallTall_DoorOpenIn",
           "InteractionHitboxType": "StevenPaw_Officestuff_Glasswall_Straight",
           "InteractionSoundEventId": "SFX_Door_Ancient_Open",
-          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim",
+          "InteractionHint": "server.StevenPaw_Officestuff_Close.description"
         },
         "OpenDoorOut": {
           "HitboxType": "StevenPaw_Officestuff_GlasswallTall_DoorOpenOut",
           "InteractionHitboxType": "StevenPaw_Officestuff_Glasswall_Straight",
           "InteractionSoundEventId": "SFX_Door_Ancient_Open",
-          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim",
+          "InteractionHint": "server.StevenPaw_Officestuff_Close.description"
         }
       }
     },
@@ -95,7 +98,8 @@
     "IsDoor": true,
     "Interactions": {
       "Use": "Door"
-    }
+    },
+    "InteractionHint": "server.StevenPaw_Officestuff_Open.description"
   },
   "Tags": {
     "Type": [

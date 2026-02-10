@@ -18,7 +18,7 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Office_Basics"
+          "Office_Glass"
         ],
         "Id": "StevenPaw_Officestuff_Bench"
       }
@@ -43,7 +43,7 @@
     "VariantRotation": "NESW",
     "ConnectedBlockRuleSet": {
       "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "ConnectedBlockTemplate_GlasswallTall",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_Glasswall",
       "TemplateShapeBlockPatterns": {
         "Straight": "*StevenPaw_Officestuff_GlasswallTall_State_Definitions_Straight",
         "Corner": "*StevenPaw_Officestuff_GlasswallTall_State_Definitions_Corner",

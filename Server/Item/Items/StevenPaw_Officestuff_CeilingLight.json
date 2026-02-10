@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_CeilingLight.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_CeilingLight.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "FuelQuality": 6.0,
+  "PlayerAnimationsId": "Block",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ItemId": "Cloth_Block_Wool_White"
+      },
+      {
+        "ItemId": "Deco_Lantern"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Basics"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#383838",
+    "BlockSoundSetId": "Stone",
+    "Light": {
+      "Color": "#fff",
+      "Radius": 10
+    },
+    "CubeShadingMode": "Fullbright",
+    "CustomModel": "Blocks/Block/StevenPaw_Officestuff_Block.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Block/StevenPaw_Officestuff_CeilingLight.png"
+      }
+    ],
+    "Opacity": "Semitransparent"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      21
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

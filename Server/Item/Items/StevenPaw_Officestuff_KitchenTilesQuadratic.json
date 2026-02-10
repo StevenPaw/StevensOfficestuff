@@ -1,0 +1,64 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Officestuff_KitchenTilesQuadratic.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_KitchenTilesQuadratic.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "FuelQuality": 6.0,
+  "PlayerAnimationsId": "Block",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Rock_Marble_Brick_Smooth"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Basics"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "Weight": 5,
+        "All": "Blocks/Block/StevenPaw_Officestuff_KitchenTilesQuadratic.png"
+      }
+    ],
+    "ParticleColor": "#383838",
+    "BlockSoundSetId": "Stone",
+    "CubeShadingMode": "Standard",
+    "VariantRotation": "NESW"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      21
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
