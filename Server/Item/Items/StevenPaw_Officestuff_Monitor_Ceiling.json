@@ -5,7 +5,7 @@
   },
   "Variant": true,
   "Parent": "StevenPaw_Officestuff_Monitor",
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Monitor.png",
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Officestuff_Monitor_Ceiling.png",
   "BlockType": {
     "PlacementSettings": {
       "WallPlacementOverrideBlockId": "StevenPaw_Officestuff_Monitor_Wall",
@@ -192,5 +192,17 @@
       }
     }
   },
-  "PlayerAnimationsId": "Block"
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
 }

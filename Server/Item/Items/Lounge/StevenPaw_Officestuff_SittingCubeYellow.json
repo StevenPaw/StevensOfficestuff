@@ -22,5 +22,26 @@
       0,
       -8
     ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Office_Basics"
+        ],
+        "Id": "StevenPaw_Officestuff_Bench"
+      }
+    ]
   }
 }

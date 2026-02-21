@@ -89,7 +89,7 @@
           "HitboxType": "StevenPaw_Officestuff_Glasswall_T_Junction"
         },
         "Cross_Junction": {
-          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_Cross_Junction.blockymodel",
+          "CustomModel": "Blocks/Furniture/Glasswall/StevenPaw_Officestuff_Glasswall_Junction.blockymodel",
           "HitboxType": "StevenPaw_Officestuff_Glasswall_Junction"
         }
       }
