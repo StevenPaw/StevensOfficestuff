@@ -68,6 +68,11 @@
       "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Id": "StevenPaw_Officestuff_Bench"
     },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
     "State": {
       "Id": "crafting",
       "Definitions": {
