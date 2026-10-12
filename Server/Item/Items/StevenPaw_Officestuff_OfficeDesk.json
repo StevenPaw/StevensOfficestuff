@@ -6,7 +6,7 @@
   "Recipe": {
     "Input": [
       {
-        "Quantity": 1,
+        "Quantity": 2,
         "ItemId": "Ingredient_Bar_Iron"
       },
       {

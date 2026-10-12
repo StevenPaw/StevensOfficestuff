@@ -1,8 +1,8 @@
 {
   "Group": "SP",
   "Name": "Stevens Office & Computerstuff",
-  "Version": "1.4.0",
-  "Description": "",
+  "Version": "1.7.0",
+  "Description": "This Asset Pack includes Assets like desks, Glass Walls, Monitors and full desktops with more coming soon. Craft them with the Office Bench.",
   "Authors": [
     {
       "Name": "Steven Paw",
@@ -10,8 +10,8 @@
       "Url": "stevenpaw.de"
     }
   ],
-  "Website": "https://www.curseforge.com/hytale/mods/stevens-roadstuff",
-  "ServerVersion": ">=0.5.3 <0.6.0",
+  "Website": "https://www.curseforge.com/hytale/mods/stevens-office-computerstuff",
+  "ServerVersion": ">=0.7.0 <0.8.0",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},

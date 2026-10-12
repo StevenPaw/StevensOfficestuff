@@ -7,10 +7,10 @@
     "Input": [
       {
         "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
+        "Quantity": 1
       },
       {
-        "ItemId": "Soil_Gravel_Sand"
+        "ItemId": "Furniture_Village_Window"
       }
     ],
     "BenchRequirement": [
