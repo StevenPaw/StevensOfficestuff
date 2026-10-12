@@ -8,6 +8,14 @@
       {
         "ResourceTypeId": "Wood_Trunk",
         "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
       }
     ],
     "BenchRequirement": [
